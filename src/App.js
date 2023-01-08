@@ -1,25 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import 'tw-elements';
+import Header from './components/Header'
+import Navbar from './components/Navbar'
+import HomeCard from './components/HomeCard'
+import Middle from './sections/Middle'
+import Myers from './sections/Myers';
+import Strenghts from './sections/Strenghts';
+import Experience from './sections/Experience';
+import Contact from './sections/Contact';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=''>
+    <Header/>
+    <Navbar/>
+    <HomeCard/>
+    <Middle/>
+    <Myers/>
+    <Strenghts/>
+    <Experience/>
+    <Contact/>
     </div>
   );
 }
-
-export default App;
