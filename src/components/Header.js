@@ -2,7 +2,7 @@
 function Header(){
     return(
         <div className="bg-[url('./ressources/header-bg.jpg')] ">
-      <div className='pr-20 pb-40 pt-10 font-Alata'>
+      <div className='pb-20 pt-10 font-Alata'>
           <div className='text-3xl text-secondary text-center font-Alata'>
             Hi there ! My name is
           </div>
